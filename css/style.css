@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.page-header{
+    background-color: black;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 15px 100px 20px 100px;
+}
+.nav-item {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.doka{
+    max-width: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,16,16,1) 100%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+}
+
+.doka img {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.heroes {
+    margin-top: 10px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.heroes p{
+    width: 250px;
+    height: 98px;
+    left: 100px;
+    top: 275px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.heroes h3{
+    text-align: center;
+    color: #fff;
+}
